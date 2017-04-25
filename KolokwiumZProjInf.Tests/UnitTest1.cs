@@ -4,11 +4,14 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace KolokwiumZProjInf.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class PointTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void GetX_Test()
         {
+            var point = new Point(3,5);
+
+            Assert.AreEqual(3,point.GetX());
         }
     }
 }
