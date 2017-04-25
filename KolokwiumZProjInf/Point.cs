@@ -20,7 +20,7 @@ namespace KolokwiumZProjInf
 
         public int GetY()
         {
-            throw new NotImplementedException();
+            return y;
         }
     }
 
