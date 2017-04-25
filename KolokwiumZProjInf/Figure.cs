@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace KolokwiumZProjInf
 {
-    public class Class1
+    public class Rectangle
     {
+        public void DrawRectangle(int startPoint, int length)
+        {
+            
+        }
+
     }
 }
