@@ -25,7 +25,7 @@ namespace KolokwiumZProjInf
 
         public string CartesianCoordinates()
         {
-            throw new NotImplementedException();
+            return $"({x},{y})";
         }
 
         public string PolarCoordinates()

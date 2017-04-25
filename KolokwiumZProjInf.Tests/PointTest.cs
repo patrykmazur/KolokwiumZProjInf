@@ -25,7 +25,7 @@ namespace KolokwiumZProjInf.Tests
         public void CartesianCoordinates_Test()
         {
             var point = new Point(3,5);
-            var expected = "(2,3)";
+            var expected = "(3,5)";
 
             var result = point.CartesianCoordinates();
 
