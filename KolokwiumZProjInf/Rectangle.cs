@@ -31,5 +31,9 @@ namespace KolokwiumZProjInf
             return side;
         }
 
+        public List<string> DrawSecondSide(Point startPoint, int length) {throw new NotImplementedException(); }
+        public List<string> DrawThirdSide(Point startPoint, int length) {throw new NotImplementedException(); }
+        public List<string> DrawFourthSide(Point startPoint, int length) { throw new NotImplementedException();}
+
     }
 }
