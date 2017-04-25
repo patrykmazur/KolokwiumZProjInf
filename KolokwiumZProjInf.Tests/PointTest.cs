@@ -13,5 +13,12 @@ namespace KolokwiumZProjInf.Tests
 
             Assert.AreEqual(3,point.GetX());
         }
+
+        [TestMethod]
+        public void GetY_Test()
+        {
+            var point = new Point(3, 5);
+            Assert.AreEqual(5,point.GetY());
+        }
     }
 }

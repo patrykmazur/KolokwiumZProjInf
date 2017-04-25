@@ -15,7 +15,7 @@ namespace KolokwiumZProjInf
 
         public int GetX()
         {
-            throw new NotImplementedException();
+            return x;
         }
 
         public int GetY()
