@@ -19,8 +19,16 @@ namespace KolokwiumZProjInf
 
         public List<string> DrawFirstSide(Point startPoint, int length)
         {
-            
-            throw new NotImplementedException();
+            Point methodPoint = new Point(startPoint.GetX(), startPoint.GetY());
+            List<string> side = new List<string>();
+            for (int i = startPoint.GetX(); i <= startPoint.GetX() + 5; i++)
+            {
+                methodPoint.setX(i);
+                methodPoint.setY(startPoint.GetY());
+                side.Add(methodPoint.CartesianCoordinates());
+            }
+
+            return side;
         }
 
     }

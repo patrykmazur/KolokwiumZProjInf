@@ -31,7 +31,7 @@ namespace KolokwiumZProjInf.Tests
 
             var result = rect.DrawFirstSide(startPoint, length);
 
-            Assert.IsTrue(result.First()==expected);
+            Assert.IsTrue(result[1]==expected);
 
         }
         
