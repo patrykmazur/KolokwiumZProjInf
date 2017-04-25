@@ -41,10 +41,6 @@ namespace KolokwiumZProjInf.Tests
             var result = point.PolarCoordinates();
 
             Assert.AreEqual(expected,result);
-
-
-
-
         }
     }
 }
