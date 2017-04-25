@@ -10,8 +10,16 @@ namespace KolokwiumZProjInf
     {
         private Point point;
 
+        private List<string> rectPoints;
+
         public List<string> DrawRectangleCartesian(Point startPoint, int length)
         {
+            throw new NotImplementedException();
+        }
+
+        public List<string> DrawFirstSide(Point startPoint, int length)
+        {
+            
             throw new NotImplementedException();
         }
 
