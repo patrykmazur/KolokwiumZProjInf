@@ -22,6 +22,16 @@ namespace KolokwiumZProjInf
         {
             return y;
         }
+
+        public string CartesianCoordinates()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string PolarCoordinates()
+        {
+            throw new NotImplementedException();
+        }
     }
 
 

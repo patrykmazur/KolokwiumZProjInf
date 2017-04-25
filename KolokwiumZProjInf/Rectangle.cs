@@ -8,9 +8,13 @@ namespace KolokwiumZProjInf
 {
     public class Rectangle
     {
-        public void DrawRectangle(int startPoint, int length)
+        private Point point;
+
+        public void DrawRectangle(Point startPoint, int length)
         {
             
+
+
         }
 
     }

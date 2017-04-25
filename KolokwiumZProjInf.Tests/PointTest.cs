@@ -20,5 +20,16 @@ namespace KolokwiumZProjInf.Tests
             var point = new Point(3, 5);
             Assert.AreEqual(5,point.GetY());
         }
+
+        [TestMethod]
+        public void CartesianCoordinates_Test()
+        {
+            var point = new Point(3,5);
+            var expected = "(2,3)";
+
+            var result = point.CartesianCoordinates();
+
+            Assert.AreEqual(expected,result);
+        }
     }
 }
